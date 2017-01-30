@@ -4,8 +4,9 @@
 
 1. Speak into the metaphor machine about any concern - rants and catharsis are best.
 
-2A. The Metaphorator generates an image-based metaphor based on your emotional state.
-2B. The Metaphorator can access a library of pre-written metaphors or generate a new one. 
+2. The Metaphorator generates an image-based metaphor based on your emotional state.
+
+ -The Metaphorator can access a library of pre-written metaphors or generate a new one. 
 
 3. The Metaphorator conveys the image through a line of text on the screen. The user can accept, reject, or modify the metaphor. 
 
