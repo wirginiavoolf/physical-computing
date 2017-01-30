@@ -3,6 +3,7 @@ Set up Github repository called "Physical Computing"
 Create a readme.md 
 Create a "fantasy machine" -- what would you make if you had all the possibilities in the world?
 **Check Zeven's Github page for details 
+video documentation
 
 physical computing day 1 notes
 
