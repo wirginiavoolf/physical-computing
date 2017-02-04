@@ -1,0 +1,32 @@
+##The Internet of Crap
+
+Bluetooth Toothbrush: Why?
+
+-Someone got married to the technology before the idea
+
+-Consider interactive experience, ecosystem & community
+
+-Are you adding unnecessary complexity to a simple process?
+
+Arduino Sketch: based in C
+
+-Uses set-up & loop (similar to p5js)
+--Set-up runs once
+--Loop runs infinitely 
+
+-Comes with built-in examples
+--Go to basics
+--Go to blink:
+
+blink
+-pinMode (output)
+-digitalWrite
+-delay
+
+See "blink" file for code
+
+##Homework
+
+Connect 3 LED's
+Take video & post it on Github (as opposed to bringing it in)
+& upload code as well q
