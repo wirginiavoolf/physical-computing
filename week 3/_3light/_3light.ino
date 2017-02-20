@@ -1,3 +1,5 @@
+//Video: https://goo.gl/photos/wWe5cV8RYiyEsDmq8
+
 int switchState = 0;
 
 void setup() {
