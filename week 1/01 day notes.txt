@@ -1,0 +1,79 @@
+HOMEWORK: 
+Set up Github repository called "Physical Computing"
+Create a readme.md 
+Create a "fantasy machine" -- what would you make if you had all the possibilities in the world?
+**Check Zeven's Github page for details 
+video documentation
+
+physical computing day 1 notes
+
+means building interactive physical systems by the use of software and hardware (can sense & respond to analog world)
+
+reverse engineering: 
++ assistive technology: inventions that ease tasks for people with disabilities (i.e. shoe tieing)
+++ can save lies (water canary)
+++ arts & gaming/fun (rubix cube solver)
+
+micro controllers: teeny tiny CPU 
+|____> vs system on chip, i.e. a raspberry pi, or lappy
+
+"internet of things" - devices that connect to the internet 
++ get you a wifi adapter "arduino yun"
++ raspberry pi 
++ conductive ink?!?!?!?!?! makes circuit connections w/ pen
+
+uses open source software
++ open source hardware aka CERN-OHL
+++ uses a general public license (GPL)
+++ be "open" about how it works 
+
+
+Basic Concepts of Electricity 
+
+Electricity: Always follows the path of least resistance 
+positive + voltage / negative - voltage
+|_> what we will mostly deal with 
+
+Anode (+): an electrode through which positive electric charge flows
+Cathode (-): from which a conventional current leaves a polarized electronical flow 
+
+AC (alternating current) vs DC (direct current)
+AC -periodically reverses direction
+DC -flow is only in one direction 
+
+Analog vs Digital 
+Analog: 
+-infinite possibilities
+-signals may be limited to a range of max & min values
+-waves are smooth & continuous 
+
+Digital:
+-discrete possibilities 
+-most common signals are of 2 values
+-waves are stepping, square, and discrete 
+
+}}}}}Watts = Volts * Amps{{{{{
+
+Analogy: 
+Volts - Water Pressure (strength)
+Amps - Flow (speed)
+Resistance - Size of Pipe (intensity, sorta -- or focus)
+
+resistance - not all components are rated the same 
+-3 basic voltages: 12, 5, 3.3 
+-LED's run on 1.5 volts 
+so - you need resistors to reduce current flow & lower voltage within circuits
+-- like kinking a water hose 
+RESISTORS ARE MEASURED IN Ohm's (which is the coolest shit I've heard today)
+
+Diodes: allow current to pass in one director while blocking current in the opposite direction
+LED is a type of diode 
+
+Relay: electrically operated switch (on/off - like a turn signal in a car)
+--early of basic computation, evolved into:
+
+Transistor: electro-mechanical switch 
+
+Series vs Parallel -- Christmas Lights 
+Series: Whole string burns out
+Parallel: Only one burns out

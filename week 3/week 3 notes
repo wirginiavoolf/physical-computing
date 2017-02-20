@@ -1,0 +1,86 @@
+gestural interaction vs physical interaction
+
+series: 
+positive to negative, positive to negative ~ "daisy chaining effect"
+-carries voltage through
+-LED's will get progressively dimmer due to this lack of power
+disadvantage: 1 component blows out, it effects the rest of them
+
+parallel: 
+components all share a voltage
+--diminishing amperage 
+advantage: if a component burns out, it does not effect others
+
+resistor: 
+-(wooden peg thing) 
+-is used to balance our circuit 
+-if there is a spike in power, a resistor blows out rather than a component 
+--easier and cheaper to fix 
+
+-----CODING-----
+
+Arduino is based on C 
+-"very primitive/low level language"
+-precursor to processing, javascript, etc 
+
+in js, you can just say
+"var 1 = 1" and be done with it 
+
+in Arduino, you must specify what kind of variable 
+-because: very limited memory built into it 
+--memory is in bytes i.e. teeny tiny 
+*manage by choosing the correct variables 
+
+Declare variables above set-up (like in p5js)
+-The variable you will use the most is integer, i.e., \\int
+--int cannot exceed number of bytes
+
+--if you need bigger int use a \\long
+---each long takes up 32 bytes
+
+--\\float uses decimals
+---same variable type as double in Arduino Uno (suited for more advanced boards)
+
+--\\unsigned in front of a variable
+---means that it takes out the negative value a variable can hold
+---because variables can go to -32
+---so instead your variable starts at 0
+---sometimes you will not need a negative range, which is why this is used 
+---apparently it is common in examples we will view
+
+\\char means characters
+-denoted by single letters aka characters
+
+\\string vs String
+-does not exist in C, so was built into Arduino
+-lowercase \\string is an array of characters
+(---more complicated; we'll come back to this later)
+
+-uppercase \\String is an object that includes an array of characters
+--therefore gives you more functions to play around with
+
+-There is a reference of different variables in Zeven's week 3 notes: https://github.com/zevenrodriguez/CIM542-642/tree/master/week3
+
+---The Serial Library---
+-built into Arduino 
+-allows Arduino to communicate w computer 
+-can send & receive commands
+
+2 general types of Serial messages:
+Serial.print
+Serial.println
+
+basically like console.log 
+
+baudrate = speed at which messages are relayed
+standard is 9600
+bluetooth is at the speed of 115200
+
+Serial.begin(9600);
+-begins signal to relay messages
+
+Serial.printlh adds linebreak 
+
+\\  Serial.println("num: " + num); generates crazy random chains of letters/numbers
+
+HOMEWORK: Use switch system to turn on and off 2 LED's. Think of a use for it. 
