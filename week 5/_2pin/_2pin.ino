@@ -13,8 +13,8 @@ void loop(){
   delay(250);
   //inside delay, add time in miliseconds
   //delays STOP microcontroller, so eventually we will not use them
-  digitalWrite(2,LOW);
-  delay(1000);
+ // digitalWrite(2,LOW);
+ // delay(1000);
 
 }
 
