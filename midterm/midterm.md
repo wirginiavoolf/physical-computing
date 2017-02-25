@@ -9,7 +9,7 @@
 
 ####After I learned of his death, I reread a portfolio of work he had sent me a few years ago. I am inspired by his work, and feel a strong desire for his legacy to continue. As a poet mourning the loss of another, I turned to our shared craft to memorialize him. As such, I've been developing a long poem that utitlizes an original poem by Desmond, a poem I've written in response, and an erasure of the two. 
 
-![Excerpt from Erasure for Desmond Crafton](des.png)
+![Excerpt from Erasure for Desmond Crafton](des.PNG)
 
 ####In working on this poem, I've realized that it can achieve its highest formal potential not as a page-bound literary work, but as an interactive poem intended for a gallery space. Ultimately, this poem will use a 2 projections of a canvas containing text (one of Desmond's poem, the other of my response). Using sonar sensors, as a viewer approaches the canvas, fragments of the text will fade to white, leaving only the erasure. My intention is to create a visual experience of grief as a result of death, the experience of our relationships with the deceased fading only to fragments of memory. 
 
