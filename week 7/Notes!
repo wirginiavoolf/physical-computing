@@ -1,0 +1,11 @@
+Notes!
+
+Arrays: charArray2[] = {'a', 'b'};
+
+-Can use to split sentences? 
+
+*Arduino does not have "concept of .length"
+Best way around this: declare variable as array length
+
+const int buttonArray[bArrayLength] = {2,3};
+const int ledArray[lArrayLength] = {12,13};
