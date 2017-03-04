@@ -1,6 +1,10 @@
 Notes!
 
-Arrays: charArray2[] = {'a', 'b'};
+
+Arrays: 
+
+char charArray[] = "hello"; //scare quotes automatically breaks words into characters?
+char charArray2[] = {'a', 'b'};
 
 -Can use to split sentences? 
 
@@ -9,3 +13,39 @@ Best way around this: declare variable as array length
 
 const int buttonArray[bArrayLength] = {2,3};
 const int ledArray[lArrayLength] = {12,13};
+
+Link to example on Array Types: https://github.com/zevenrodriguez/CIM542-642/blob/master/arduino/arrayTypes/arrayTypes.ino
+
+-You can create an array of pinmodes and then use a for loop to break it up 
+~~as opposed to writing "pinMode" every time 
+
+To Manipulate HTML: Need Arduino Ethernet stuff 
+For Midterm: Have a PrintLN word appear trigged based on distance 
+-Could also use LED screen 
+
+So, possible alternate midterm: A few LED lights that selectively fade or get brighter based on sonar input 
+Other possible materials: 
+-Arduino Zero, bc it's 32bit 
+-MKRZero, comes with SD 
+-MKR1000, has built in WiFi 
+
+MULTIMETER ~ 
+-can be used to check voltage on a device
+-touch cables to power & ground gables on Arduino to read voltage
+-touch cables to resistor to get a guess at what kind it is 
+
+-good debugging tool b/c you can test continunity with electrical currents 
+-check all wires for continuity 
+
+WIRESTRIPPER ~ 
+26 gauge wire is the one you'll find on campus
+-used to cut stranded wire
+--solid core wire is best for arduino 
+
+Saudering: Use range 500-700~800
+Saudering irons can very easily start fires so watch ur back & never leave it unattended 
+Use a thing to catch excess sauder 
+- best is a brillo pad bc you don't have to wet it 
+- you can use a wet sponge or paper towel 
+
+HOMEWORK: Pseudo Code for midterm

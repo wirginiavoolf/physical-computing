@@ -1,5 +1,6 @@
 #Digital Erasures
 ##An Interactive Poem
+#####Updated 3/4/2017
 
 ###An erasure is a form of visual poetry in which a larger text is somehow "erased" in order to allow a sparser poem to emerge. Erasures often use found text and incorporate elements of visual art; one famous example of this is ["A Humument" by Tom Phillips](http://www.tomphillips.co.uk/humument). 
 
@@ -16,11 +17,10 @@
 
 ##A Partial Erasure 
 
-###My midterm project will be developed in support of this final vision. As such, I will be attempting a smaller-scale version of what I've proposed above in an effort to perfect the code and gathering of input data from the hardware. 
+###My midterm project will be developed in support of this final vision. As such, I will be attempting a prototype in an effort to perfect the code and gathering of input data from the hardware. Because I will need to create an Ethernet connection in order to manipulate HTML, p5js, and other codes, this mideterm project will be focused on developing a code that reads and interacts with sonar sensors.
 
 ###What I am prosposing will involve:
 
-##-2 versions of a single line of text: the full version & the erasure
-##-the use of a sonar input that creates a "fading" effect on a part of the text
-
-##The goal will be figuring out how I can properly "slice" a text so that some parts of it fade while the others remain the same. 
+##-Mounting a sonar sensor
+##-Writing original code that interacts with sensor input data 
+##-Printing a line of text in the console when a certain distance is reached
