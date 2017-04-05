@@ -25,6 +25,7 @@ lcd.setCursor(0, 0);
 
   if (sensorVal >= 13) {
 Serial.print("missing");
+Serial.print(sensorVal);
 Serial.println();
 
 //lcd.print(sensorVal);//print name

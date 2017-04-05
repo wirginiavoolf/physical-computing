@@ -1,4 +1,5 @@
 //source: https://ictronic.wordpress.com/2016/07/02/interfacing-16x2-lcd-with-arduino-without-potentiometer/
+//next draft: lines "advance" in poem based on your position to the sensor
 
 #include <LiquidCrystal.h>
 

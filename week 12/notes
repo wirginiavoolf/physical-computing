@@ -1,0 +1,60 @@
+serial: "lowest common denominator"
+
+the most sophosticated protocols have a stack that controls the message
+-a question is asked, response determines whether or not more messages are sent
+
+Serial.available - is there readable info available? 
+draw loop reads & reads & reads 
+
+Serial.read - 
+
+You can use an if loop 
+if(letter == a || letter == 97){
+	Serial.println("97 represents the letter a")
+}
+
+note: int & char are interchangable 
+
+Example:
+Communication - Physical Pixel 
+
+
+CREATING A BASIC INTERFACE 
+
+//https://github.com/vanevery/p5.serialport
+
+Use the Serial Monitor to turn things on & off
+-This will be the foundation of your interface, i.e. software 
+
+//example: https://github.com/zevenrodriguez/CIM542-642/tree/master/week10/examples/p5SerialWrite
+
+INCLUDE p5.serialport.js library 
+
+function mouseReleased() {
+  serial.write(outMessage);
+  if (outMessage === 'H') {
+    outMessage = 'L';
+  } else {
+    outMessage = 'H';
+  }
+}
+
+When command is sent, the "opposite" message is sent out
+In this function, a mouse command sends the message, rather than physically typing the letter 
+
+NODE: https://github.com/vanevery/p5.serialcontrol/releases
+
+Example w/ Port & sketch.js - "Middleware" to get p5 to work with Arduino
+bc p5 is meant to work in a browser rather than your computer 
+See folder: p5Serialwrite
+
+
+
+HOMEWORK: turn on & off 2 LEDs using the protocol above 
+
+
+
+for larger messages: Serial.event (week 11 folder) 
+https://github.com/zevenrodriguez/CIM542-642/tree/master/week11/SerialEvent
+
+//IMPORTANT: In SerialPort, change drop down to "New Line" 
