@@ -70,7 +70,7 @@ void ledState(String inputData) {
   }
 
   if (inputData.equals("low")) {
-    digitalWrite(ledPinB, LOW);
+    digitalWrite(ledPinB, HIGH);
   }
 
 }
