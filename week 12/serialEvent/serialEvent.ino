@@ -47,7 +47,7 @@ void serialEvent() {
     // get the new byte:
     char inChar = (char)Serial.read();
     // add it to the inputString:
-    //inputString += inChar;
+    //inputString += inChar;=][p
 
 
     if (inChar != '\n') {
@@ -63,7 +63,7 @@ void serialEvent() {
   }
 }
 
-void ledState(String inputData) {
+void ledState(String inputData) {5
   //Serial.print(inputData);
   if (inputData.equals("high")) {
     digitalWrite(ledPinA, HIGH);
