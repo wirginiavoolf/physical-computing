@@ -5,9 +5,9 @@
 
 // initialize the library with the numbers of the interface pins
 
-LiquidCrystal lcd(1, 2, 8, 9, 10, 11); /// REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
+LiquidCrystal lcd(0, 1, 8, 9, 10, 11); /// REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
 
-const int sensorPin = A1;
+const int sensorPin = A0;
 
 void setup()
 
@@ -31,22 +31,22 @@ void loop()
 //  Serial.print(sensorVal);
 //  Serial.println();
 
-  if(sensorVal <= 30) {
+  //if(sensorVal <= 30) {
 
 lcd.setCursor(0, 1); // set the cursor to column 0, line 2
-lcd.print("i open every door...through the falling bands of moon white steel...the color of gunmetal...at this little table...pointing to the sky...i cannot remember what to do...do i take aim...& assassinate");//print name
+lcd.print("name");//print name
 lcd.scrollDisplayLeft();//shifting data on LCD
 
 lcd.setCursor(0, 0);// set the cursor to column 0, line1
-  } else {
+ // } else {
 
-lcd.print("like a gunman...searching...every coruscated surface...i have been sitting here...below your windows...for so long...if it has feathers...i run away"); //print name
+lcd.print("2"); //print name
 delay(750);//delay of 0.75sec
 
 lcd.scrollDisplayLeft();//shifting data on LCD
 
 lcd.setCursor(0, 0);// set the cursor to column 0, line1
-  }
+ // }
 
 
 }

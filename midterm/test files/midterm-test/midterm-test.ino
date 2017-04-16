@@ -1,9 +1,9 @@
 #include <LiquidCrystal.h>
 
-const int sensorPin = A0;
+const int sensorPin = A1;
 const float baselineDist = 1;
 
-LiquidCrystal lcd(0, 1, 8, 9, 10, 11); /// REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
+LiquidCrystal lcd(1, 2, 8, 9, 10, 11); /// REGISTER SELECT PIN,ENABLE PIN,D4 PIN,D5 PIN, D6 PIN, D7 PIN
 
 void setup() {
   // put your setup code here, to run once:

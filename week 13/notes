@@ -1,0 +1,69 @@
+deadlines
+
+4/20 - submission to canes fest due
+//https://interactive.miami.edu/canesfilmfest/
+
+4/24 - workshop presentation in class 
+
+5/4 - Canesfest 
+
+5/5 - final
+
+
+
+~making things~
+
+physical installation is a "hot marketing gimmick"
+-takes times
+-custom pieces come from scratch
+-must understand how things are utilized
+
+there is a disconnect between people who "make" things & people who "design" them
+
+
+
+~3D modeling~
+
+best color to use for 3d printing - acryllic 
+-fragile, but
+-can use solvent to put together
+
+
+**we will use**
+free online software: onshape 
+onshape.com
+
+
+YOU NEED:
+-a tape measurer
+-a caliber 
+
+**3d printers work in milimeters**
+
+When measuring for 3d - give wiggle room, aka "tolerance"
+
+3d printers print from a "top view," so consider orientation while designing
+3d printers design on 3 planes, so orient your planes 
+--you can click on the plane you want to sketch upon (e.g., top)
+--start with a flat sketch & build into 3d piece
+
+*scale is important (parametric modeler)
+
+idea: maybe i can design some sort of sphere that rolls & triggers sonar sensor? 
+other idea: you can design 3d text in the software
+
+**make sure hardware excelleration is enabled in chrome (settings -> advanced settings -> enable hardware excelleration)
+
+if you're creating something interactive - 
+measure the hand (or other relevant user part)
+
+limit on size: 200 x 200 x 200 mm
+
+EXPORT
+
+right click on parts 
+drop down: STL
+-binary
+-milimeter
+-fine
+-download
