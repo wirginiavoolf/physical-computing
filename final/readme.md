@@ -9,6 +9,8 @@
 
 ![A Humument](hum.jpg)
 
+###What if an erasure was inverted, so that text was not erased, but emergent? What would its destination be? How can the experience of emerging be translated to text? In "Facts About Distance," these questions are ones I've applied to my work as a poet and interactive media artist in an attempt to create an original art form and tribute. 
+
 #### Recently, I learned that one of my former students, Desmond Crafton, passed away. Desmond was extremely young, only 21 years old. He was a brilliant poet and performer, and well after he finished school with me, he continued to be a force in the Chicago poetry community. I believed he was destined for great things as an artist. The suddenness of his loss was devastating, and created a strange, placeless grief for me. 
 
 #### As a result of all this, the idea of erasure has taken on a new meaning to me. Over the past several weeks, I have been creating different artistic works that approach the idea of erasure and memory. In so doing, I believe a new concept of erasure can be achieved by combining physical computing concepts with interactive poetry. 
