@@ -28,14 +28,14 @@ void loop()
   Serial.print(sensorVal);
   Serial.println();
 
-if(sensorVal <= 280) {
+if(sensorVal <= 300) {
 
 lcd.setCursor(0, 1); // set the cursor to column 0, line 2
 lcd.print("what i know");//print name
 //lcd.scrollDisplayLeft();//shifting data on LCD
 
 lcd.setCursor(0, 0);// set the cursor to column 0, line1
-} else if (sensorVal <= 260) {
+} else if (sensorVal <= 250) {
 
 lcd.print("is yesterday"); //print name
 delay(750);//delay of 0.75sec
