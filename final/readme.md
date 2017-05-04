@@ -3,7 +3,7 @@
 
 ##### Most Recent Update: 5/3/2017
 
-##4/18/2017 
+## 4/18/2017 
 
 ## Inspiration
 
@@ -11,7 +11,7 @@
 
 ![A Humument](hum.jpg)
 
-###What if an erasure was inverted, so that text was not erased, but emergent? What would its destination be? How can the experience of emerging be translated to text? In "Facts About Distance," these questions are ones I've applied to my work as a poet and interactive media artist in an attempt to create an original art form and tribute. 
+### What if an erasure was inverted, so that text was not erased, but emergent? What would its destination be? How can the experience of emerging be translated to text? In "Facts About Distance," these questions are ones I've applied to my work as a poet and interactive media artist in an attempt to create an original art form and tribute. 
 
 #### Recently, I learned that one of my former students, Desmond Crafton, passed away. Desmond was extremely young, only 21 years old. He was a brilliant poet and performer, and well after he finished school with me, he continued to be a force in the Chicago poetry community. I believed he was destined for great things as an artist. The suddenness of his loss was devastating, and created a strange, placeless grief for me. 
 
@@ -107,7 +107,6 @@ These components are installed within a found box (visual elements of which are 
 
 ![the innards](wires.jpg)
 
- #### I did not end up figuring out more about the way the maxsonar sensor reads code, because it turns out that I had somehow wired it wrong, and had not connected the analog pin. Obviously, that fixed a lot of my problems. Maybe one day I'll learn all the mysteries of the maxsonar sensor, but today I only care that my project works. 
 
  #### I wired a 9 volt battery as a power supply for the project. I used the battery snap that comes with the Arduino starter kit. I wired it into my tiny bread board. 9 volts is too much power for the screen, so I used resistors to bring it down (according to [this site](http://www.camradio.net/resistors.html), they're  "10 MEG ohms    and   5 % tolerance" resistors). If I had a little more time, money, and equipment, I would have done a different battery set-up and used AAA batteries, but I did not have those things, and this set-up works fine. 
 
@@ -116,6 +115,10 @@ These components are installed within a found box (visual elements of which are 
  #### Using OnShape.com, I designed and 3D printed some parts for holding the components in place. I hot glued those into the box. I designed the parts a little too shallowly, but with lots of hot glue, it ended up working out. 
 
  #### Finally, I decided to paint the box with watercolors to make it a little more exciting. 
+
+  #### In terms of challenges: I did not end up figuring out more about the way the maxsonar sensor reads code because I had a few hardware issues. At some point, I had wired the sensor backwards (somehow it was still working, albeit erratically). That was a real easy fix! 
+
+ #### However, after that, I ran a few codes, and realized that the sensor was being interferred with due to environmental factors related to its electrical current. It seems to work more consistently when running on a battery than when connected with a USB. I'm not 100% sure what causes this, but it might be from the physical cord resting against the same surface as the sensor. For the purpose of a gallery exhibit, I removed a line of code that stabilizes the sensor read to make it more sensitive; the downside of this is that the interactivity is a little less reliable, but the upside is that a user will be able to experience the complete poetry event. 
 
  ### The End 
 
