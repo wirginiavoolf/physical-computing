@@ -1,7 +1,9 @@
 # Facts About Distance
 ## An Interactive Poem
-##### Updated 4/18/2017
 
+##### Most Recent Update: 5/3/2017
+
+##4/18/2017 
 
 ## Inspiration
 
@@ -26,6 +28,10 @@
 #### -An original elegiac verse composed for the project
 
 These components are installed within a found box (visual elements of which are referenced in the poem's text).
+
+## Composition 
+
+#### In writing this poem, I have used short lines, no more than 16 characters each, so that they can fit on the narrow LCD screen. 
 
 ![Facts About Distance](facts.jpg)
 
@@ -52,14 +58,13 @@ These components are installed within a found box (visual elements of which are 
 #### since you
 
 
-## Composition 
-
-#### In writing this poem, I have used short lines, no more than 16 characters each, so that they can fit on the narrow LCD screen. 
+## Code
 
 #### The code uses an if/else loop to read sensor data and trigger different lines of text. However, I am continuing to develop this aspect of the project for a gallery setting, where there might be multiple viewers at once. 
+
 #### The current challenge is [revisiting the sonar sensor data](http://www.maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf), to decipher the different ways it measures distance, and therefore which variables may trigger a line. I am contemplating using a different loop other than if/else that may have a less sensitive execution. 
 
-## Installation 
+## Hardware
 
 #### Installation of the components has been the most difficult part of creating this project. A lot of wires are involved in making an LCD screen work, which is fine, but has become complicated because all of the components are installed in a single surface. 
 
@@ -80,3 +85,42 @@ These components are installed within a found box (visual elements of which are 
 #### -Edit code to more efficiently use sonar data
 
 #### The final project is due 5/4/17. 
+
+## Update 5/3/2017
+
+##The project is completed! 
+
+#### [Here is a link to the final code for this project.](https://github.com/wirginiavoolf/physical-computing/blob/master/final/scrollmodinteractive/scrollmodinteractive.ino) I've learned a lot in the past two weeks. 
+
+## Revision Process
+
+### Code 
+
+#### In the previous version of the code, I used a long if/else loop where different lines of the poem would be triggered by different distances. Although a nifty concept, I could not get it to work. I assumed this is because of the maxsonar sensor (more on that later). But after reflecting, I realized that it was not a very user friendly approach anyway.
+
+#### Because of this, I decided to use only an "if" & an "if else" statement. In the priliminary "if" statement, the title of the project & a line of instruction ("to begin, get close") are displayed. When a user leans over the project, the poem event begins -- the lines of the poem are displayed in sequence. I added a "return" function at the end of the code so that the project will start over (it will only start over if the user becomes distant). I've used if/else loops many times in the past year, but never used "return" before, so that was fun to learn. I think I could have also used a "while" loop to achieve the same effect, but I did not do this.
+
+#### I used the [Scroll Mod code](
+ http://www.arduino.cc/en/Tutorial/LiquidCrystalAutoscroll) for the LCD screen as a starting point. 
+
+ ### Hardware 
+
+![the innards](wires.jpg)
+
+ #### I did not end up figuring out more about the way the maxsonar sensor reads code, because it turns out that I had somehow wired it wrong, and had not connected the analog pin. Obviously, that fixed a lot of my problems. Maybe one day I'll learn all the mysteries of the maxsonar sensor, but today I only care that my project works. 
+
+ #### I wired a 9 volt battery as a power supply for the project. I used the battery snap that comes with the Arduino starter kit. I wired it into my tiny bread board. 9 volts is too much power for the screen, so I used resistors to bring it down (according to [this site](http://www.camradio.net/resistors.html), they're  "10 MEG ohms    and   5 % tolerance" resistors). If I had a little more time, money, and equipment, I would have done a different battery set-up and used AAA batteries, but I did not have those things, and this set-up works fine. 
+
+ #### Sidenote: there's a lot of scary stuff out there in the Googles about using a 9 volt battery with Arduino. For my purposes, which is to display this object for a few hours in a gallery show, this is fine. If the project needed to run continuously for days, I would definitely need to use different batteries, and also have a power switch. 
+
+ #### Using OnShape.com, I designed and 3D printed some parts for holding the components in place. I hot glued those into the box. I designed the parts a little too shallowly, but with lots of hot glue, it ended up working out. 
+
+ #### Finally, I decided to paint the box with watercolors to make it a little more exciting. 
+
+ ### The End 
+
+ #### I hope that this documentation might be useful to others out there. I'm a poet, not a rocket scientist (h/t to the Arduino Projects Book). I love integrating technology and code into art, but I've struggled a lot to learn jargon and logic. I'm very fortunate to have had the opportunity to take university courses on this stuff, and especially to work with Zeven Rodrgiuez. I may have given up on some of these challenges without such a valuable resource. But I didn't get up. I cried a little, executed complex Google searches, and read that stupid maxsonar PDF front and back more times than I'd like to admit, and I made a weird little microcomputer project. 
+
+ #### A lot of times, I thought what I was doing was the opposite of a poem. Poems don't have rules. Whether they work or not is subjective. And numbers only ever come up if you're writing a sonnet. But in the end, I hope I made something meaningful. 
+
+ ###And Desmond, wherever he is now -- I hope that, in some way, this little object can honor him. It will be the first of many. 

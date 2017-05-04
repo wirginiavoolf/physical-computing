@@ -45,17 +45,9 @@
 // include the library code:
 #include <LiquidCrystal.h>
 
-
-const int anPin = 1;
-
-//variables needed to store values
-
-long anVolt, inches, cm;
-
-int sum = 0; //Create sum variable so it can be averaged
-
-int avgrange = 60; //Quantity of values to average (sample size)
-
+#define sensorPin 6
+//declare var
+const int sensorPin = A1;
 
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -64,49 +56,21 @@ void setup() {
   Serial.begin(9600);
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
+
+  digitalWrite(sensorPin, HIGH);
 }
 
 void loop() {
 
   
-  int sensorVal = analogRead(anPin);
-//  Serial.print("Sensor Value: ");
-//  Serial.print(sensorVal);
-//  Serial.println();
-
-for (int i = 0; i < avgrange ; i++)
-
-  {
-    anVolt = analogRead(anPin) / 2;
-
-    sum += anVolt;
-
-    delay(10);
-  }
-
-  inches = sum / avgrange;
-
-  cm = inches * 2.54;
-
-  Serial.print(inches);
-
-  Serial.print("in, ");
-
-  Serial.print(cm);
-
-  Serial.print("cm");
-
+  int sensorVal = analogRead(sensorPin);
+  Serial.print("Sensor Value: ");
+  Serial.print(sensorVal);
   Serial.println();
 
-    //reset sample total
-
-  //sum = 0;
-
-//poem loop
-  {
-  if(inches >= 260){
+  if(sensorVal >= 45){
   lcd.setCursor(8,1);
-  lcd.print("to begin, hold me");
+  lcd.print("to begin poem: touch the city");
 
   lcd.setCursor(0, 0);
 
@@ -116,7 +80,7 @@ for (int i = 0; i < avgrange ; i++)
   lcd.scrollDisplayLeft(); 
   delay(750);
   }
-  else if (inches <= 260){
+  else if (sensorVal <= 44){
   delay(1500);
 //FIRST LINE
   // set the cursor to (0,0):
@@ -297,6 +261,6 @@ for (int i = 0; i < avgrange ; i++)
 }
   return;
   }
-}}
+}
 
 
