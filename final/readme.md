@@ -1,9 +1,7 @@
 # Facts About Distance
 ## An Interactive Poem
 
-##### Most Recent Update: 5/3/2017
 
-## 4/18/2017 
 
 ## Inspiration
 
@@ -58,6 +56,8 @@ These components are installed within a found box (visual elements of which are 
 #### since you
 
 
+## 4/18/2017 - Preliminary Development 
+
 ## Code
 
 #### The code uses an if/else loop to read sensor data and trigger different lines of text. However, I am continuing to develop this aspect of the project for a gallery setting, where there might be multiple viewers at once. 
@@ -86,7 +86,7 @@ These components are installed within a found box (visual elements of which are 
 
 #### The final project is due 5/4/17. 
 
-## Update 5/3/2017
+## 5/3/2017 - Updated Development 
 
 ##The project is completed! 
 

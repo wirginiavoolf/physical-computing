@@ -104,7 +104,7 @@ for (int i = 0; i < avgrange ; i++)
 
 //poem loop
   {
-  if(inches >= 260){
+  if(inches >= 100){
   lcd.setCursor(8,1);
   lcd.print("to begin, hold me");
 
@@ -116,7 +116,7 @@ for (int i = 0; i < avgrange ; i++)
   lcd.scrollDisplayLeft(); 
   delay(750);
   }
-  else if (inches <= 260){
+  else if (inches <= 100){
   delay(1500);
 //FIRST LINE
   // set the cursor to (0,0):
